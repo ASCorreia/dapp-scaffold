@@ -5,7 +5,7 @@ import { FC, useCallback, useState } from 'react';
 import { notify } from "../utils/notifications";
 
 import { Program, AnchorProvider, web3, utils, BN } from '@project-serum/anchor';
-import idl from "./solanapdas.json";
+import idl from "./solanapdas2.json";
 
 const idl_string = JSON.stringify(idl);
 const idl_object = JSON.parse(idl_string);

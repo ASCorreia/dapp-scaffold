@@ -11,7 +11,7 @@ const idl_string = JSON.stringify(idl);
 const idl_object = JSON.parse(idl_string);
 const programID = new PublicKey(idl.metadata.address);
 
-export const Bank: FC = () => {
+export const Swap: FC = () => {
     const { connection } = useConnection();
     const ourWallet = useWallet();
 

@@ -77,7 +77,7 @@ export const Swap: FC = () => {
             console.log("Deposit done: " + publicKey);
         }
         catch (error) {
-            console.log("Error while depositing into bank account " + error);
+            console.log("Error while depositing into bank account" + error);
         }
     }
 

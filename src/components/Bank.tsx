@@ -142,7 +142,7 @@ export const Bank: FC = () => {
                         Wallet not connected
                         </div>
                          <span className="block group-disabled:hidden" >
-                            Create Bank / Send Transaction
+                            Create Liquidity Pool
                         </span>
                     </button>
                     <button
@@ -153,7 +153,7 @@ export const Bank: FC = () => {
                         Wallet not connected
                         </div>
                          <span className="block group-disabled:hidden" >
-                            List Banks
+                            List Liquidity Pools
                         </span>
                     </button>
              </div>
